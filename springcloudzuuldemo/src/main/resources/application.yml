@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    student:
+      url: http://localhost:9700
+server:
+  port: 9000
+app:
+  id: SampleApp
+apollo:
+  bootstrap:
+    enabled: true
+  meta: https://localhost:8080
+
+debug:
+  pre:
+    enable: false
